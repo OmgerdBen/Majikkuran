@@ -26,7 +26,7 @@ public class Item : MonoBehaviour {
 	{
 		//print (other.name);
 		if (other.gameObject.CompareTag ("Arrow")) {
-			Destroy (gameObject);
+			Destroy (this);
 
 		}
 	}
